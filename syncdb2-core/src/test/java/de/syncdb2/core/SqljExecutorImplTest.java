@@ -12,6 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * Testet die Ausführung eines einfachen SQLJ-Objekts.
  */
 @SpringBootTest
+@Import({TestDataSourceConfig.class})
 class SqljExecutorImplTest {
 
     @Autowired
