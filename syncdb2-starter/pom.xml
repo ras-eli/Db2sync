@@ -12,6 +12,7 @@
     <dependency>
       <groupId>de.syncdb2</groupId>
       <artifactId>syncdb2-core</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
