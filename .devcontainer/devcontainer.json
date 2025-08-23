@@ -13,5 +13,5 @@
       ]
     }
   },
-  "postCreateCommand": "mvn clean install"
+  
 }
