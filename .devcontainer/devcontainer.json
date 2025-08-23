@@ -1,0 +1,17 @@
+{
+  "name": "Db2sync Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "pivotal.vscode-spring-boot",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "postCreateCommand": "mvn clean install"
+}
