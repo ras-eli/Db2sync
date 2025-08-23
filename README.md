@@ -20,4 +20,4 @@ Die folgenden Komponenten bilden das Kernsystem:
 
 ## ✅ Status
 
-Alle Module wurden modular aufgebaut. CI/CD mit GitHub Actions ist eingerichtet. Weitere Details siehe [docs/](./docs/).
+Alle Module wurden modular aufgebaut. CI/CD mit GitHub Actions ist eingerichtet. Weitere Details siehe [docs/](docs/).
