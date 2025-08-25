@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    primary:
+      url: jdbc:h2:mem:primary;DB_CLOSE_DELAY=-1
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
+    secondary:
+      url: jdbc:h2:mem:secondary;DB_CLOSE_DELAY=-1
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
